@@ -227,11 +227,22 @@ def task_latest():
     return {
         "actions": [
             # TODO: YOUR CODE HERE
+            "python .src/pull_es_options.py --latest",
+            "python .src/pull_fred.py",
+            "python .src/monitor.py", 
+            "python .src/build_page.py"
         ],
         "file_dep": [
             # TODO: YOUR CODE HERE
+            ".src/monitor_chart.py",
+            ".src/pull_es_options.py",
+            ".src/monitor.py", 
+            ".src/build_page.py"
+            ".src/pull_fred.py",
+            *ENGINE,
         ],
         # TODO: YOUR CODE HERE
+        "uptodate": [False],
         "verbosity": 2,
     }
 

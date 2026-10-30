@@ -79,9 +79,10 @@ def crash_probability(cdf, alpha):
     True
     """
     ## TODO: Implement this function as specified in the docstring above.
-    raise NotImplementedError(
-        "Implement crash_probability (see HOMEWORK INSTRUCTIONS at the top of this file)"
-    )
+    qalph = cdf(alpha)
+    rf = cdf.forward
+    putalph = cdf.put(alpha)
+    return float((alpha * qalph / rf - putalph))
 
 
 def crash_probability_power(cdf, alpha, gamma=GAMMA):
