@@ -9,5 +9,5 @@ URL_TO_MY_COMPLETED_HELLO_GITHUB_ACTIONS_REPO = "https://github.com/starckyang/s
 # paste the URL of YOUR completed public repository.
 # https://github.com/skills/introduction-to-secret-scanning
 # changed just for testing purpose, remember to switch back
-I_HAVE_COMPLETED_SECRET_SCANNING = True
+I_HAVE_COMPLETED_SECRET_SCANNING = False
 URL_TO_MY_COMPLETED_SECRET_SCANNING_REPO = "https://github.com/starckyang/skills-introduction-to-secret-scanning"

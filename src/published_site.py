@@ -10,4 +10,4 @@
 # Also changed just to test, come back and fix
 I_HAVE_DEPLOYED_MY_MONITOR = True
 URL_TO_MY_MONITOR_SITE = "https://github.com/starckyang/svix-crash-monitor"
-URL_TO_MY_PUBLIC_REPO = "https://github.com/starckyang/svix-crash-monitor"
+URL_TO_MY_PUBLIC_REPO = "https://starckyang.github.io/svix-crash-monitor/"
