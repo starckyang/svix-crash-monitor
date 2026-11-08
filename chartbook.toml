@@ -1,0 +1,14 @@
+[project]
+name='SVIX crash probability'
+description='we use different ways to calculate the crash probability of the S&P 500 index based on the SVIX index'
+
+[dataframes.svix_monitor_history]
+name='SVIX monitor history'
+description='SVIX monitor history data'
+path='svix_monitor_history.csv'
+date_col="date"
+docs="""
+p_star_20: the rf probability of a 20% crash in the next 30 days, calculated from SVIX index
+p_log_20: the probability of a 20% crash if people are using a log-util function in the next 30 days, calculated from SVIX index
+p_power_20: the probability of a 20% crash if people are using a power-util function in the next 30 days, calculated from SVIX index
+"""
